@@ -13,52 +13,6 @@
 //     "asset/3.jpg",
 //     "asset/4.jpg",
 //     "asset/5.jpg",
-//     // Add more images as needed
-//   ];
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       backgroundColor: Color.fromARGB(255, 255, 238, 226),
-//       body: SafeArea(
-//         child: Padding(
-//           padding: const EdgeInsets.all(25),
-//           child: Column(
-//             children: [
-//               Text(
-//                 "Selamat Ulang Tahun Rajel",
-//                 style: TextStyle(
-//                   fontSize: 20.0,
-//                   color: Colors.brown,
-//                   fontWeight: FontWeight.bold,
-//                   fontFamily: "YourChosenGoogleFont",
-//                 ),
-//               ),
-//               SizedBox(height: 25),
-//               CarouselSlider.builder(
-//                 itemCount: _images.length,
-//                 options: CarouselOptions(
-//                   autoPlay: true,
-//                   autoPlayInterval: Duration(seconds: 3),
-//                 ),
-//                 itemBuilder: (BuildContext context, int index, int realIndex) {
-//                   return Container(
-//                     width: MediaQuery.of(context).size.width,
-//                     height: MediaQuery.of(context).size.height,
-//                     child: Image.asset(
-//                       _images[index],
-//                       fit: BoxFit.cover,
-//                     ),
-//                   );
-//                 },
-//               ),
-//             ],
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
 
 import 'dart:async';
 
