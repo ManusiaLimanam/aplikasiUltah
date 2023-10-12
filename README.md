@@ -1,16 +1,11 @@
-# aplikasiultah
+projek yang saya buat dalam waktu 1 hari untuk hadiah ulang tahun teman saya tapi tidak jadi karena saya pikir ini terlalu alay dan merepotkan
 
-A new Flutter project.
+aplikasi ini ter integrasi dengan telegram bot, jika user meninputkan keinginannya maka akan terkirim ke telegram bot
+jadi buat bot telegram terlebih dahulu
 
-## Getting Started
+jika bingung silahkan hubungi saya di ig : @manusia_.limanam
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ganti ini
+final telegramBotToken = ''; // masukan token bot telegram
+final chatId = '5581419910'; // Ganti dengan ID grup Anda
