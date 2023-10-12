@@ -4,6 +4,8 @@ aplikasi ini ter integrasi dengan telegram bot, jika user meninputkan keinginann
 jadi buat bot telegram terlebih dahulu
 
 jika bingung silahkan hubungi saya di ig : @manusia_.limanam
-#Ganti ini
+
+
+Ganti ini
 final telegramBotToken = ''; // masukan token bot telegram
 final chatId = '5581419910'; // Ganti dengan ID grup Anda
